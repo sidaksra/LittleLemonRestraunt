@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const SubHeader = () => {
-    const location = useLocation();
+const location = useLocation();
 
     // Function to get the current page name based on the pathname
     const getPageName = (pathname) => {
